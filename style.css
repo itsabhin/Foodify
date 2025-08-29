@@ -1,0 +1,299 @@
+/* =========================
+   Global Styles
+========================= */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    background-color: #fdfdfd;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ff6f3c;
+}
+
+/* =========================
+   Buttons
+========================= */
+.btn {
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #ff6f3c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e85b2d;
+}
+
+.btn-outline-secondary {
+    border: 2px solid #555;
+    color: #555;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+    display: none;
+}
+
+/* =========================
+   Navbar
+========================= */
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.navbar .nav-link {
+    font-weight: 600;
+    margin: 0 10px;
+    color: #333 !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #ff6f3c !important;
+}
+
+.navbar-brand h1 {
+    font-size: 28px;
+    color: #ff6f3c;
+}
+/* =========================
+   Hero Section
+========================= */
+.hero-header {
+    background: linear-gradient(to right, #fff5f2, #ffece6);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-header h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #222;
+}
+
+.hero-header p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.hero-header img {
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Features Section
+========================= */
+.feature-item {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.feature-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.feature-item i {
+    color: #ff6f3c;
+}
+
+.feature-item h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #555;
+}
+/* =========================
+   About Section
+========================= */
+.about {
+    border-radius: 0;
+    background: linear-gradient(135deg, #ff6f3c, #ff9068);
+}
+
+.about img {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.about h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #f8f8f8;
+}
+
+/* =========================
+   Menu Section
+========================= */
+.menu-item {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.menu-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.menu-item img {
+    border-radius: 12px;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.menu-item h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.menu-item p {
+    font-size: 15px;
+    font-weight: 600;
+}
+/* =========================
+   Testimonials Section
+========================= */
+.testimonial-item {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #eee;
+    background: #fff;
+    min-height: 220px;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.testimonial-item img {
+    border: 2px solid #ff6f3c;
+    padding: 2px;
+}
+
+.testimonial-item h6 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #222;
+}
+
+.testimonial-item small {
+    font-size: 13px;
+    color: #999;
+}
+
+/* =========================
+   Footer
+========================= */
+.footer {
+    background: #111;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.footer h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer a {
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #ff6f3c;
+    padding-left: 5px;
+}
+
+.footer .btn-social {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #bbb;
+}
+
+.footer .btn-social:hover {
+    background: #ff6f3c;
+    border-color: #ff6f3c;
+    color: #fff;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 991px) {
+    .hero-header h1 {
+        font-size: 38px;
+    }
+    .about h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .nav-link {
+        margin: 8px 0;
+    }
+    .hero-header img {
+        max-width: 100%;
+    }
+    .menu-item img {
+        height: 150px;
+    }
+}
